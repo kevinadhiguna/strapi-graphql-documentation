@@ -1,0 +1,39 @@
+query FetchUsers {
+  users {
+    id
+    createdAt
+    updatedAt
+    username
+    email
+    provider
+    confirmed
+    blocked
+    role {
+      id
+      name
+      description
+      type
+      permissions {
+        id
+        type
+        controller
+        action
+        enabled
+        policy
+        role {
+          id
+          name
+          description
+          type
+          permissions {
+            id
+            controller
+            action
+            enabled
+            policy
+          }
+        }
+      }
+    }
+  }
+}
