@@ -1,0 +1,71 @@
+mutation UploadSingleImageToSeveralFields(
+  $ref: String
+  $refId: ID
+  $cardImage: Upload!
+  $facePhoto: Upload!
+  $personWithCardPhoto: Upload!
+) {
+  cardImage: upload(
+    ref: $ref
+    refId: $refId
+    field: "cardImage"
+    file: $cardImage
+  ) {
+    id
+    createdAt
+    updatedAt
+    name
+    alternativeText
+    caption
+    width
+    height
+    formats
+    hash
+    ext
+    mime
+    size
+    url
+  }
+  facePhoto: upload(
+    ref: $ref
+    refId: $refId
+    field: "facePhoto"
+    file: $facePhoto
+  ) {
+    id
+    createdAt
+    updatedAt
+    name
+    alternativeText
+    caption
+    width
+    height
+    formats
+    hash
+    ext
+    mime
+    size
+    url
+  }
+  personWithCardPhoto: upload(
+    ref: $ref
+    refId: $refId
+    field: "personWithCardPhoto"
+    file: $personWithCardPhoto
+  ) {
+    id
+    createdAt
+    updatedAt
+    name
+    alternativeText
+    caption
+    width
+    height
+    formats
+    hash
+    ext
+    mime
+    size
+    url
+  }
+}
