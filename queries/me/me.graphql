@@ -1,0 +1,15 @@
+query MeQuery {
+  me {
+    id
+    username
+    email
+    confirmed
+    blocked
+    role {
+      id
+      name
+      description
+      type
+    }
+  }
+}
