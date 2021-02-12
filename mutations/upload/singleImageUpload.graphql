@@ -1,0 +1,18 @@
+mutation SingleImageUpload($refId: ID, $ref: String, $field: String, $file: Upload!) {
+  upload(refId: $refId, ref: $ref, field: $field, file: $file) {
+    id
+    createdAt
+    updatedAt
+    name
+    alternativeText
+    caption
+    width
+    height
+    formats
+    hash
+    ext
+    mime
+    size
+    url
+  }
+}
