@@ -1,0 +1,15 @@
+query FetchSingleUser($id: ID!) {
+  user(id: $id) {
+    id
+    createdAt
+    updatedAt
+    username
+    email
+    provider
+    confirmed
+    blocked
+    role {
+      name
+    }
+  }
+}
