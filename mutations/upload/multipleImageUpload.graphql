@@ -1,0 +1,23 @@
+mutation MultipleImageUpload(
+  $refId: ID
+  $ref: String
+  $field: String
+  $files: [Upload]!
+) {
+  multipleUpload(refId: $refId, ref: $ref, field: $field, files: $files) {
+    id
+    createdAt
+    updatedAt
+    name
+    alternativeText
+    caption
+    width
+    height
+    formats
+    hash
+    ext
+    mime
+    size
+    url
+  }
+}
