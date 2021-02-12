@@ -1,0 +1,18 @@
+query FetchFiles {
+  files {
+    id
+    createdAt
+    updatedAt
+    name
+    alternativeText
+    caption
+    width
+    height
+    formats
+    hash
+    ext
+    mime
+    size
+    url
+  }
+}
