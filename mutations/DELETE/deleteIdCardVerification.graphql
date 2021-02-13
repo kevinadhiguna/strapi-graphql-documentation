@@ -1,0 +1,36 @@
+mutation deleteIdCardVerification($input: deleteIdCardVerificationInput) {
+  deleteIdCardVerification(input: $input) {
+    idCardVerification {
+      id
+      createdAt
+      updatedAt
+      kind
+      identifier
+      birthPlace
+      name
+      birthPlace
+      birthDate
+      gender
+      bloodType
+      address
+      religion
+      marriageStatus
+      occupation
+      nationalityCode
+      expiryDate
+      issuerCountryCode
+      issuedDate
+      faceTop
+      faceLeft
+      faceWidth
+      faceHeight
+      statusCode
+      uploadedAt
+      extractedAt
+      verifiedAt
+      issuerProvince
+      issuerCity
+      uploaderId
+    }
+  }
+}
