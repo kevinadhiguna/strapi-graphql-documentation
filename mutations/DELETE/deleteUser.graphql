@@ -1,0 +1,17 @@
+mutation deleteUser($input: deleteUserInput) {
+  deleteUser(input: $input) {
+    user {
+      id
+      createdAt
+      updatedAt
+      username
+      email
+      provider
+      confirmed
+      blocked
+      role {
+        name
+      }
+    }
+  }
+}
