@@ -1,0 +1,17 @@
+mutation UpdateUser($input: updateUserInput) {
+  updateUser(input: $input) {
+    user {
+      id
+      createdAt
+      updatedAt
+      username
+      email
+      provider
+      confirmed
+      blocked
+      role {
+        name
+      }
+    }
+  }
+}
