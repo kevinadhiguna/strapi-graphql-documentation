@@ -1,0 +1,33 @@
+mutation CreateUser($input: createUserInput) {
+  createUser(input: $input) {
+    user {
+      id
+      createdAt
+      updatedAt
+      username
+      email
+      provider
+      confirmed
+      blocked
+      role {
+        id
+        name
+        description
+        type
+        permissions {
+          type
+          controller
+          action
+          enabled
+          policy
+          role {
+            name
+          }
+        }
+        users {
+          username
+        }
+      }
+    }
+  }
+}
