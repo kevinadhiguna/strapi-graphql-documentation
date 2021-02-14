@@ -1,6 +1,17 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/kevinadhiguna/strapi-graphql-documentation/master/images/strapql.png" />
-  <h2>Strapi GraphQL API - queries & mutations</h2>
+  <h3 align="center">Strapi GraphQL API Documentation</h3>
+
+  <p align="center">
+    Collections of GraphQL queries and mutations that power your Strapi app!
+    <br />
+    <a href="https://github.com/kevinadhiguna/strapi-graphql-documentation/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/kevinadhiguna/strapi-graphql-documentation/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/kevinadhiguna/strapi-graphql-documentation/issues">Request Feature</a>
+  </p>
 </div>
 <br>
 
