@@ -151,6 +151,34 @@ Pass these variables :
 
 Go to `Documentation` in the menu on the left side -> Copy the token in `Retrieve your jwt token`.
 
+## Retrieve/Fetch a single User
+
+Previously, we created a new user. To retrieve a specific user inside User collection type, you can make use of this query :
+```
+query FetchSingleUser($id: ID!) {
+  user(id: $id) {
+    id
+    createdAt
+    updatedAt
+    username
+    email
+    provider
+    confirmed
+    blocked
+    role {
+      name
+    }
+  }
+}
+```
+
+Variables :
+```
+{
+  "id": "YOUR_USER_ID"
+}
+```
+
 ## Create an Entry in a Collection Type
 
 Suppose you have created a collection type named `idCardVerification`. Here is how you can add a new record inside it :
