@@ -309,6 +309,39 @@ For instace, `identifier` and `birthPlace` are variables available in `idCardVer
 
 <b>Note : `birthPlace: London, United Kingdom` is just an example to fill a field</b>
 
+## Fetch/Retrieve a single entry in collection type
+
+To fetch an entry in your collection type, this query is probably able help you :
+```
+query FetchSingleIdCardVerification($id: ID!) {
+  idCardVerification(id: $id) {
+    id
+    identifier
+    birthPlace
+  }
+}
+```
+
+Pass the ID of the record/entry you want to fetch :
+```
+{
+  "id": "ID_OF_ENTRY"
+}
+```
+
+## Fetch/Retrieve all entries in collection type
+
+This may get you all of the entries in your collection type :
+```
+query FetchIdCardVerifications {
+  idCardVerifications {
+    id
+    identifier
+    birthPlace
+  }
+}
+```
+
 ## Update an entry in collection type
 
 ```
@@ -329,7 +362,7 @@ You want to change `birthPlace` value to California, United States. Pass these i
 {
   "input": {
     "where": {
-      "id": "YOUR_USER_ID"
+      "id": "ID_OF_ENTRY"
     },
     "data": {
       "birthPlace": "California, United States"
