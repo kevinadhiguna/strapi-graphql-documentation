@@ -202,7 +202,7 @@ query FetchUsers {
 
 You do not have to pass any variables but you may need to attach JWT in your headers (depends on your Strapi app's roles & permissions).
 
-## 🆕 Update a User
+## 🔄 Update a User
 
 Imagine you want to change a user's email. To do such things, you should use a mutation which updates the user's data. Here is an example to change a user's email :
 ```
@@ -309,7 +309,7 @@ For instace, `identifier` and `birthPlace` are variables available in `idCardVer
 
 <b>Note : `birthPlace: London, United Kingdom` is just an example to fill a field</b>
 
-## Fetch/Retrieve a single entry in collection type
+## 📮 Fetch/Retrieve a single entry in collection type
 
 To fetch an entry in your collection type, this query is probably able help you :
 ```
@@ -329,7 +329,7 @@ Pass the ID of the record/entry you want to fetch :
 }
 ```
 
-## Fetch/Retrieve all entries in collection type
+## 📒 Fetch/Retrieve all entries in collection type
 
 This may get you all of the entries in your collection type :
 ```
@@ -342,7 +342,7 @@ query FetchIdCardVerifications {
 }
 ```
 
-## 🆕 Update an entry in collection type
+## 🔄 Update an entry in collection type
 
 ```
 mutation UpdateIdCardVerification($input: updateIdCardVerificationInput) {
