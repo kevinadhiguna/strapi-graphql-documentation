@@ -85,7 +85,7 @@ query MeQuery {
 ```
 <b>Note : `me` query requires JWT attached in headers!</b>
 
-### How to attach JWT in headers :
+### 📎 How to attach JWT in headers :
 `authorization : Bearer YOUR_TOKEN`
 
 ## Create a User in Users (a collection type that comes default in Strapi app)
