@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="https://raw.githubusercontent.com/kevinadhiguna/strapi-graphql-documentation/master/images/strapql.png" />
   <h2>Strapi GraphQL API - queries & mutations</h2>
 </div>
 <br>
