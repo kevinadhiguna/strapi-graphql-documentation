@@ -151,7 +151,7 @@ Pass these variables :
 
 Go to `Documentation` in the menu on the left side -> Copy the token in `Retrieve your jwt token`.
 
-## Retrieve/Fetch a single User
+## 🧑 Retrieve/Fetch a single User
 
 Previously, we created a new user. To retrieve a specific user inside User collection type, you can make use of this query :
 ```
@@ -179,7 +179,7 @@ Variables :
 }
 ```
 
-## Retrieve/Fetch all Users
+## 👥 Retrieve/Fetch all Users
 
 If you want to get all users in your Strapi app, this is the query you are looking for : 
 ```
