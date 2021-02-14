@@ -279,7 +279,7 @@ Place the user ID of the user you want to remove as a variable :
 
 <b>Note : Please carefully control which roles are able to conduct `delete` operation as it is sensitive.</b>
 
-## Create an Entry in a Collection Type
+## ✅ Create an Entry in a Collection Type
 
 Suppose you have created a collection type named `idCardVerification`. Here is how you can add a new record inside it :
 ```
