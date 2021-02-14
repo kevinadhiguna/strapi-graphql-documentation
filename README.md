@@ -241,7 +241,7 @@ Then pass some variabes that you would like to change (in this case, `email` fie
 
 If you want to change fields other than `email`, just replace the `email` variable.
 
-## Delete/Remove a User
+## ❌ Delete/Remove a User
 
 >A user decided to no longer use my app. How do I remove him/her?
 
@@ -373,7 +373,7 @@ You want to change `birthPlace` value to California, United States. Pass these i
 
 You are changing `birthPlace` field. The response should display `birthPlace` field with the updated value.
 
-## Delete/Remove an entry in collection type
+## ❌ Delete/Remove an entry in collection type
 
 ```
 mutation deleteIdCardVerification($input: deleteIdCardVerificationInput) {
