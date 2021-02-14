@@ -373,6 +373,31 @@ You want to change `birthPlace` value to California, United States. Pass these i
 
 You are changing `birthPlace` field. The response should display `birthPlace` field with the updated value.
 
+## Delete/Remove an entry in collection type
+
+```
+mutation deleteIdCardVerification($input: deleteIdCardVerificationInput) {
+  deleteIdCardVerification(input: $input) {
+    idCardVerification {
+      id
+      identifier
+      birthPlace
+    }
+  }
+}
+```
+
+Variables :
+```
+{
+  "input": {
+    "where": {
+      "id": "ID_OF_ENTRY"
+    }
+  }
+}
+```
+
 ## Upload a single image
 
 Please create a new entry in your collection type API first ! Otherwise this will not be attached to your entry.
