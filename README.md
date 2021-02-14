@@ -5,7 +5,7 @@
 
 Hello there, welcome to Strapi GraphQL API documentation! This contains some of queries and mutations that hopefully helps you if you are using GraphQL API in your Strapi project :)
 
-## Register
+## ®️ Register
 Just like any other applications that requires you to create an account, you have to sign up first to create a user in `users` collection type that comes default in Strapi. Here is how to register an account :
 ```
 mutation Register($input: UsersPermissionsRegisterInput!) {
