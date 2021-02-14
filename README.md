@@ -288,22 +288,57 @@ mutation createIdCardVerification($input: createIdCardVerificationInput) {
     idCardVerification {
       id
       identifier
+      birthPlace
     }
   }
 }
 
 ```
 
-Variables :
+For instace, `identifier` and `birthPlace` are variables available in `idCardVerification` collection type. Here are variables you should pass :
 ```
 {
   "input": {
     "data": {
-      "identifier": "YOUR_USERNAME OR YOUR_EMAIL"
+      "identifier": "YOUR_USERNAME OR YOUR_EMAIL",
+      "birthPlace": "London, United Kingdom"
     }
   }
 }
 ```
+
+<b>Note : `birthPlace: London, United Kingdom` is just an example to fill a field</b>
+
+## Update an entry in collection type
+
+```
+mutation UpdateIdCardVerification($input: updateIdCardVerificationInput) {
+  updateIdCardVerification(input: $input) {
+    idCardVerification {
+      id
+      kind
+      identifier
+      birthPlace
+    }
+  }
+}
+```
+
+You want to change `birthPlace` value to California, United States. Pass these in variables :
+```
+{
+  "input": {
+    "where": {
+      "id": "YOUR_USER_ID"
+    },
+    "data": {
+      "birthPlace": "California, United States"
+    }
+  }
+}
+```
+
+You are changing `birthPlace` field. The response should display `birthPlace` field with the updated value.
 
 ## Upload a single image
 
