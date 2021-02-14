@@ -88,7 +88,7 @@ query MeQuery {
 ### 📎 How to attach JWT in headers :
 `authorization : Bearer YOUR_TOKEN`
 
-## Create a User in Users (a collection type that comes default in Strapi app)
+## 🧍 Create a User in Users (a collection type that comes default in Strapi app)
 >What? Create a User? Did I just create a User using `Registration` mutation above?
 
 Sure, here is some notable points :
@@ -147,7 +147,7 @@ Pass these variables :
 ```
 <b>Note : Please attach a JWT in Headers, usually Superadmin's JWT.</b>
 
-### How to get Superadmin's JWT
+### 🔑 How to get Superadmin's JWT
 
 Go to `Documentation` in the menu on the left side -> Copy the token in `Retrieve your jwt token`.
 
