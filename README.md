@@ -593,7 +593,7 @@ query FetchFiles {
 
 Unfortunately, currently Strapi does not provide a query to fetch a single file.
 
-## Fetch a single role
+## 👨‍💻 Fetch a single role
 
 Here is the query to display a single role :
 ```
@@ -638,7 +638,7 @@ Variable :
 }
 ```
 
-## Fetch all roles
+## 👨‍💻 👨‍💼 🧑‍🔧 Fetch all roles
 
 Below is the query to get all roles :
 ```
