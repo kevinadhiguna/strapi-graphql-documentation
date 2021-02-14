@@ -398,7 +398,7 @@ Variables :
 }
 ```
 
-## Upload a single image
+## 📤 🖼️ Upload a single image
 
 ### ⚠️ Warning : Currently Strapi's GraphQL Playground does not support file/image upload. You cn use other GraphQL client to test your GraphQL upload mutation.
 One of the GraphQL clients I use is Altair. You can download it here : https://altair.sirmuel.design/#download
@@ -435,7 +435,7 @@ Variables :
 }
 ```
 
-##  Upload multiple images in a single field
+## 📤 🖼️ Upload multiple images in a single field
 ```
 mutation MultipleImageUpload(
   $refId: ID
@@ -473,7 +473,7 @@ Variables :
 
 <b>Note : In this case, I attached images with name `files.0`, `files.1`, ... , `files.n` as variables' names until the number of image you want to upload (n).</b>
 
-## Upload a single image in separate fields
+## 📤 🖼️ Upload a single image in separate fields
 >Hmm... but how do I upload a single image to several fields in a single request?
 
 All right, imagine you created a collection type which has several fields, including `cardImage`, `facePhoto`, and `personWithCardPhoto`. Otherwise, just replace those fields with yours. Ok, here we go :
@@ -566,7 +566,7 @@ Note: In this case, the variables' names are `cardImage`, `facePhoto`, and `pers
 
 In the `UploadSingleImageToSeveralFields` mutation above, you still need `ref`, `refId`, and field name. However you are sending a request to a collection type and are trying to attach images in a sngle record inside the collection type. So, you are able to set `ref` and `refId` as variables. The field name ? You should name it statically as you want to upload an image in different fields. Hopefully this approach helps :)
 
-## Get all files
+## 📂 Get all files
 >All right, I got images and files uploaded to my Strapi app but how do I know what files did I upload ?  
 
 To get all the files uploaded to database within your Strapi app, here is the query :
