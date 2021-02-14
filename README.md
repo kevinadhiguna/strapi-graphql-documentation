@@ -592,3 +592,86 @@ query FetchFiles {
 ```
 
 Unfortunately, currently Strapi does not provide a query to fetch a single file.
+
+## Fetch a single role
+
+Here is the query to display a single role :
+```
+query fetchSingleRole($id: ID!) {
+  role(id: $id) {
+    id
+    name
+    description
+    type
+    permissions {
+      id
+      type
+      controller
+      action
+      enabled
+      policy
+      role {
+        name
+      }
+    }
+    users {
+      id
+      createdAt
+      updatedAt
+      username
+      email
+      provider
+      confirmed
+      blocked
+      role {
+        name
+      }
+    }
+  }
+}
+```
+
+Variable :
+```
+{
+  "id": "ROLE_ID"
+}
+```
+
+## Fetch all roles
+
+Below is the query to get all roles :
+```
+query FetchRoles {
+  roles {
+    id
+    name
+    description
+    type
+    permissions {
+      id
+      type
+      controller
+      action
+      enabled
+      policy
+      role {
+        name
+      }
+    }
+    users {
+      id
+      createdAt
+      updatedAt
+      username
+      email
+      provider
+      confirmed
+      blocked
+      role {
+        name
+      }
+    }
+  }
+}
+```
