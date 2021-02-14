@@ -179,6 +179,29 @@ Variables :
 }
 ```
 
+## Retrieve/Fetch all Users
+
+If you want to get all users in your Strapi app, this is the query you are looking for : 
+```
+query FetchUsers {
+  users {
+    id
+    createdAt
+    updatedAt
+    username
+    email
+    provider
+    confirmed
+    blocked
+    role {
+      name
+    }
+  }
+}
+```
+
+You do not have to pass any variables but you may need to attach JWT in your headers (depends on your Strapi app's roles & permissions).
+
 ## Update a User
 
 Imagine you want to change a user's email. To do such things, you should use a mutation which updates the user's data. Here is an example to change a user's email :
