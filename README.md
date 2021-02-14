@@ -63,7 +63,7 @@ Then enter your `identifier` and `password` as variables :
 ```
 Eventually, you will get JWT in response.
 
-## Me Query
+## 🙋 Me Query
 
 To identify current user, you can use `me` query, like this :
 ```
