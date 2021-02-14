@@ -218,6 +218,44 @@ Then pass some variabes that you would like to change (in this case, `email` fie
 
 If you want to change fields other than `email`, just replace the `email` variable.
 
+## Delete/Remove a User
+
+>A user decided to no longer use my app. How do I remove him/her?
+
+Here is a mutation that might do the task :
+```
+mutation deleteUser($input: deleteUserInput) {
+  deleteUser(input: $input) {
+    user {
+      id
+      createdAt
+      updatedAt
+      username
+      email
+      provider
+      confirmed
+      blocked
+      role {
+        name
+      }
+    }
+  }
+}
+```
+
+Place the user ID of the user you want to remove as a variable :
+```
+{
+  "input": {
+    "where": {
+      "id": "YOUR_USER_ID"
+    }
+  }
+}
+```
+
+<b>Note : Please carefully control which roles are able to conduct `delete` operation as it is sensitive.</b>
+
 ## Create an Entry in a Collection Type
 
 Suppose you have created a collection type named `idCardVerification`. Here is how you can add a new record inside it :
