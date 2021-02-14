@@ -88,7 +88,7 @@ query MeQuery {
 ### 📎 How to attach JWT in headers :
 `authorization : Bearer YOUR_TOKEN`
 
-## 🧍 Create a User in Users (a collection type that comes default in Strapi app)
+## 🆕 Create a User in Users (a collection type that comes default in Strapi app)
 >What? Create a User? Did I just create a User using `Registration` mutation above?
 
 Sure, here is some notable points :
@@ -279,7 +279,7 @@ Place the user ID of the user you want to remove as a variable :
 
 <b>Note : Please carefully control which roles are able to conduct `delete` operation as it is sensitive.</b>
 
-## ✅ Create an Entry in a Collection Type
+## 🆕 Create an Entry in a Collection Type
 
 Suppose you have created a collection type named `idCardVerification`. Here is how you can add a new record inside it :
 ```
@@ -562,7 +562,7 @@ Variables :
 <b>Please do not forget to attach your files with variables' names.</b><br>
 Note: In this case, the variables' names are `cardImage`, `facePhoto`, and `personWithCardPhoto`.
 
-### How does `UploadSingleImageToSeveralFields` mutation work ?
+### 🚀 How does `UploadSingleImageToSeveralFields` mutation work ?
 
 In the `UploadSingleImageToSeveralFields` mutation above, you still need `ref`, `refId`, and field name. However you are sending a request to a collection type and are trying to attach images in a sngle record inside the collection type. So, you are able to set `ref` and `refId` as variables. The field name ? You should name it statically as you want to upload an image in different fields. Hopefully this approach helps :)
 
