@@ -1,0 +1,20 @@
+mutation DeleteSingleFile($input: deleteFileInput) {
+  deleteFile(input: $input) {
+    file {
+      id
+      createdAt
+      updatedAt
+      name
+      alternativeText
+      caption
+      width
+      height
+      formats
+      hash
+      ext
+      mime
+      size
+      url
+    }
+  }
+}
