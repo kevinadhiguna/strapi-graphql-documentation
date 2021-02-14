@@ -31,7 +31,7 @@ Next, put your `username`, `email`, and `password` as variables :
 ```
 Finally, a JWT shows in response.
 
-## Login
+## 🔒 Login
 ```
 mutation Login($input: UsersPermissionsLoginInput!) {
   login(input: $input) {
