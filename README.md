@@ -202,7 +202,7 @@ query FetchUsers {
 
 You do not have to pass any variables but you may need to attach JWT in your headers (depends on your Strapi app's roles & permissions).
 
-## Update a User
+## 🆕 Update a User
 
 Imagine you want to change a user's email. To do such things, you should use a mutation which updates the user's data. Here is an example to change a user's email :
 ```
@@ -342,7 +342,7 @@ query FetchIdCardVerifications {
 }
 ```
 
-## Update an entry in collection type
+## 🆕 Update an entry in collection type
 
 ```
 mutation UpdateIdCardVerification($input: updateIdCardVerificationInput) {
