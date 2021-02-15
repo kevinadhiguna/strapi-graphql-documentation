@@ -5,7 +5,7 @@
   <p align="center">
     Collections of GraphQL queries and mutations that power your Strapi app!
     <br />
-    <a href="https://github.com/kevinadhiguna/strapi-graphql-documentation/"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kevinadhiguna/strapi-graphql-documentation#-table-of-contents"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/kevinadhiguna/strapi-graphql-documentation/issues">Report Bug</a>
