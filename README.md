@@ -15,7 +15,27 @@
 </div>
 <br>
 
+<!-- TABLE OF CONTENTS -->
+## 📚 Table of Contents
+<ol>
+  <li>
+    <a href="#about-strapql">About Strapql</a>
+  </li>
+  <li><a href="#queries-and-mutations">Queries and Mutations</a></li>
+  <li><a href="#contributing">Contributing</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#acknowledgements">Acknowledgements</a></li>
+</ol>
+
+## About Strapql
+
 Hello there, welcome to Strapi GraphQL API documentation! This contains some of queries and mutations that hopefully helps you if you are using GraphQL API in your Strapi project :)
+
+## Queries and Mutations
+
+- Queries are used to read or fetch values while a mutation is used to write or post values (`READ`/`RETRIEVE`).
+- Mutations modify data in the data store and returns a value. It can be used to insert, update, or delete data (`CREATE`, `UPDATE`, and `DELETE`).
+<br> (Source : [TutorialsPoint](https://www.tutorialspoint.com/graphql/index.htm))
 
 ## ®️ Register
 Just like any other applications that requires you to create an account, you have to sign up first to create a user in `users` collection type that comes default in Strapi. Here is how to register an account :
@@ -687,3 +707,22 @@ query FetchRoles {
   }
 }
 ```
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some Amazing Queries or Mutations'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Contact
+Kevin Adhiguna - [@kevinadhiguna](https://linkedin.com/kevinadhiguna) - hi.kevinadhiguna@gmail.com
+
+Project Link: [https://github.com/kevinadhiguna/strapi-graphql-documentation](https://github.com/kevinadhiguna/strapi-graphql-documentation)
+
+## Acknowledgements
+* [Strapi](https://github.com/strapi/strapi)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
