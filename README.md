@@ -19,19 +19,19 @@
 ## 📚 Table of Contents
 <ol>
   <li>
-    <a href="#about-strapql">About Strapql</a>
+    <a href="#-about-strapql">About Strapql</a>
   </li>
-  <li><a href="#queries-and-mutations">Queries and Mutations</a></li>
-  <li><a href="#contributing">Contributing</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#acknowledgements">Acknowledgements</a></li>
+  <li><a href="#-queries-and-mutations">Queries and Mutations</a></li>
+  <li><a href="#-contributing">Contributing</a></li>
+  <li><a href="#-contact">Contact</a></li>
+  <li><a href="#-acknowledgements">Acknowledgements</a></li>
 </ol>
 
-## About Strapql
+## 🌟 About Strapql
 
 Hello there, welcome to Strapi GraphQL API documentation! This contains some of queries and mutations that hopefully helps you if you are using GraphQL API in your Strapi project :)
 
-## Queries and Mutations
+## 🌈 Queries and Mutations
 
 - Queries are used to read or fetch values while a mutation is used to write or post values (`READ`/`RETRIEVE`).
 - Mutations modify data in the data store and returns a value. It can be used to insert, update, or delete data (`CREATE`, `UPDATE`, and `DELETE`).
@@ -708,7 +708,7 @@ query FetchRoles {
 }
 ```
 
-## Contributing
+## 🖊 Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -718,11 +718,11 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## Contact
+## 🌐 Contact
 Kevin Adhiguna - [@kevinadhiguna](https://linkedin.com/in/kevinadhiguna) - hi.kevinadhiguna@gmail.com
 
 Project Link: [https://github.com/kevinadhiguna/strapi-graphql-documentation](https://github.com/kevinadhiguna/strapi-graphql-documentation)
 
-## Acknowledgements
+## 🎉 Acknowledgements
 * [Strapi](https://github.com/strapi/strapi)
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
