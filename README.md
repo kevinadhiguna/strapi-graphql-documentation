@@ -719,7 +719,7 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 ## Contact
-Kevin Adhiguna - [@kevinadhiguna](https://linkedin.com/kevinadhiguna) - hi.kevinadhiguna@gmail.com
+Kevin Adhiguna - [@kevinadhiguna](https://linkedin.com/in/kevinadhiguna) - hi.kevinadhiguna@gmail.com
 
 Project Link: [https://github.com/kevinadhiguna/strapi-graphql-documentation](https://github.com/kevinadhiguna/strapi-graphql-documentation)
 
