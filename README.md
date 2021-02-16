@@ -432,7 +432,7 @@ Variables :
 
 ## 📤 🖼️ Upload a single image
 
-### ⚠️ Warning : Currently Strapi's GraphQL Playground does not support file/image upload. You cn use other GraphQL client to test your GraphQL upload mutation.
+### ⚠️ Warning : Currently Strapi's GraphQL Playground does not support file/image upload. You can use other GraphQL client to test your GraphQL upload mutation.
 One of the GraphQL clients I use is Altair. You can download it here : https://altair.sirmuel.design/#download
 
 Please create a new entry in your collection type API first ! Otherwise this will not be attached to your entry.
