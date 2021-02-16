@@ -17,15 +17,47 @@
 
 <!-- TABLE OF CONTENTS -->
 ## 📚 Table of Contents
+
+1. [About Strapql](#-about-strapql)
+2. [Queries and Mutations](#-queries-and-mutations)
+    - [Register](#%EF%B8%8F-register)
+    - [Login](#-login)
+    - [Me Query](#-me-query)
+      - [How to attach JWT in headers](#-how-to-attach-jwt-in-headers-)
+    - [Create a user in Users](#-create-a-user-in-users-a-collection-type-that-comes-default-in-strapi-app)
+      - [How to get Superadmin's JWT](#-how-to-get-superadmins-jwt)
+    - [Retrieve/Fetch a single User](#-retrievefetch-a-single-user)
+    - [Retrieve/Fetch all Users](#-retrievefetch-all-users)
+    - [Update a User](#-update-a-user)
+    - [Delete/Remove a User](#-deleteremove-a-user)
+    - [Create an Entry in a Collection Type](#-create-an-entry-in-a-collection-type)
+    - [Fetch/Retrieve a single entry in collection type](#-fetchretrieve-a-single-entry-in-collection-type)
+    - [Fetch/Retrieve all entries in collection type](#-fetchretrieve-all-entries-in-collection-type)
+    - [Update an entry in collection type](#-update-an-entry-in-collection-type)
+    - [Delete/Remove an entry in collection type](#-deleteremove-an-entry-in-collection-type)
+    - [Upload a single image](#-%EF%B8%8F-upload-a-single-image)
+    - [Upload multiple images in a single field](#-%EF%B8%8F-upload-multiple-images-in-a-single-field)
+    - [Upload a single image in separate fields](#-%EF%B8%8F-upload-a-single-image-in-separate-fields)
+    - [Get all files](#-get-all-files)
+    - [Fetch a single role](#-fetch-a-single-role)
+    - [Fetch all roles](#---fetch-all-roles)
+3. [Contributing](#-contributing)
+4. [Contact](#-contact)
+5. [Acknowledgements](#-acknowledgements)
+
+<!--
 <ol>
   <li>
     <a href="#-about-strapql">About Strapql</a>
   </li>
-  <li><a href="#-queries-and-mutations">Queries and Mutations</a></li>
+  <li>
+    <a href="#-queries-and-mutations">Queries and Mutations</a>
+  </li>
   <li><a href="#-contributing">Contributing</a></li>
   <li><a href="#-contact">Contact</a></li>
   <li><a href="#-acknowledgements">Acknowledgements</a></li>
 </ol>
+-->
 
 ## 🌟 About Strapql
 
