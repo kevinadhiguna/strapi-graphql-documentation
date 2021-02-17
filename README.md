@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/kevinadhiguna/strapi-graphql-documentation/master/images/strapql.png" />
+  <img src="https://raw.githubusercontent.com/kevinadhiguna/strapi-graphql-documentation/master/assets/images/strapql.png" />
   <h3 align="center">Strapi GraphQL API Documentation</h3>
 
   <p align="center">
