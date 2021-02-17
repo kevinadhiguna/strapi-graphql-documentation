@@ -538,6 +538,9 @@ Variables :
 }
 ```
 
+Here is an example :<br/>
+<img src="https://raw.githubusercontent.com/kevinadhiguna/strapi-graphql-documentation/master/assets/gif/multipleImageUpload.gif" />
+
 <b>Note : In this case, I attached images with name `files.0`, `files.1`, ... , `files.n` as variables' names until the number of image you want to upload (n).</b>
 
 ## 📤 🖼️ Upload a single image in separate fields
