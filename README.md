@@ -499,6 +499,9 @@ Variables :
 }
 ```
 
+Here is an example :<br/>
+<img src="https://raw.githubusercontent.com/kevinadhiguna/strapi-graphql-documentation/master/assets/gif/singleImageUpload.gif" />
+
 ## 📤 🖼️ Upload multiple images in a single field
 ```
 mutation MultipleImageUpload(
