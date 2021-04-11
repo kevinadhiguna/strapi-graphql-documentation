@@ -66,7 +66,7 @@ Hello there, welcome to Strapi GraphQL API documentation! This contains some of 
 
 ## 🌈 Queries and Mutations
 
-- Queries are used to read or fetch values while a mutation is used to write or post values (`READ`/`RETRIEVE`).
+- Queries are used to read or fetch values (`READ`/`RETRIEVE`).
 - Mutations modify data in the data store and returns a value. It can be used to insert, update, or delete data (`CREATE`, `UPDATE`, and `DELETE`).
 <br> (Source : [TutorialsPoint](https://www.tutorialspoint.com/graphql/index.htm))
 
