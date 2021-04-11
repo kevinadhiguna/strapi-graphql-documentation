@@ -638,7 +638,7 @@ Here is an example :<br/>
 
 ### 🚀 How does `UploadSingleImageToSeveralFields` mutation work ?
 
-In the `UploadSingleImageToSeveralFields` mutation above, you still need `ref`, `refId`, and field name. However you are sending a request to a collection type and are trying to attach images in a sngle record inside the collection type. So, you are able to set `ref` and `refId` as variables. The field name ? You should name it statically as you want to upload an image in different fields. Hopefully this approach helps :)
+In the `UploadSingleImageToSeveralFields` mutation above, you still need `ref`, `refId`, and field name. However you are sending a request to a collection type and are trying to attach images in a single record inside the collection type. So, you are able to set `ref` and `refId` as variables. The field name ? You should name it statically as you want to upload an image in different fields. Hopefully this approach helps :)
 
 ## 📂 Get all files
 >All right, I got images and files uploaded to my Strapi app but how do I know what files did I upload ?  
