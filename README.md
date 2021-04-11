@@ -38,6 +38,7 @@
     - [Upload a single image](#-%EF%B8%8F-upload-a-single-image)
     - [Upload multiple images in a single field](#-%EF%B8%8F-upload-multiple-images-in-a-single-field)
     - [Upload a single image in separate fields](#-%EF%B8%8F-upload-a-single-image-in-separate-fields)
+      - [How does `UploadSingleImageToSeveralFields` mutation work ?](#-how-does-uploadsingleimagetoseveralfields-mutation-work-)
     - [Get all files](#-get-all-files)
     - [Fetch a single role](#-fetch-a-single-role)
     - [Fetch all roles](#---fetch-all-roles)
