@@ -290,7 +290,7 @@ mutation UpdateUser($input: updateUserInput) {
 }
 ```
 
-Then pass some variabes that you would like to change (in this case, `email` field) :
+Then pass some variables that you would like to change (in this case, `email` field) :
 ```json
 {
   "input": {
@@ -772,3 +772,5 @@ Project Link: [https://github.com/kevinadhiguna/strapi-graphql-documentation](ht
 ## 🎉 Acknowledgements
 * [Strapi](https://github.com/strapi/strapi)
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+
+[![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/strapi-graphql-documentation)](https://github.com/kevinadhiguna)
