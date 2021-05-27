@@ -96,6 +96,8 @@ Next, put your `username`, `email`, and `password` as variables :
 ```
 Finally, a JWT shows in response.
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ## 🔒 Login
 ```graphql
 mutation Login($input: UsersPermissionsLoginInput!) {
@@ -128,6 +130,8 @@ Then enter your `identifier` and `password` as variables :
 ```
 Eventually, you will get JWT in response.
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ## 🙋 Me Query
 
 To identify current user, you can use `me` query, like this :
@@ -152,6 +156,8 @@ query MeQuery {
 
 ### 📎 How to attach JWT in headers :
 `authorization : Bearer YOUR_TOKEN`
+
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
 
 ## 🆕 Create a User in Users (a collection type that comes default in Strapi app)
 >What? Create a User? Did I just create a User using `Registration` mutation above?
@@ -212,9 +218,13 @@ Pass these variables :
 ```
 <b>Note : Please attach a JWT in Headers, usually Superadmin's JWT.</b>
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ### 🔑 How to get Superadmin's JWT
 
 Go to `Documentation` in the menu on the left side -> Copy the token in `Retrieve your jwt token`.
+
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
 
 ## 🧑 Retrieve/Fetch a single User
 
@@ -244,6 +254,8 @@ Variables :
 }
 ```
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ## 👥 Retrieve/Fetch all Users
 
 If you want to get all users in your Strapi app, this is the query you are looking for : 
@@ -266,6 +278,8 @@ query FetchUsers {
 ```
 
 You do not have to pass any variables but you may need to attach JWT in your headers (depends on your Strapi app's roles & permissions).
+
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
 
 ## 🔄 Update a User
 
@@ -306,6 +320,8 @@ Then pass some variables that you would like to change (in this case, `email` fi
 
 If you want to change fields other than `email`, just replace the `email` variable.
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ## ❌ Delete/Remove a User
 
 >A user decided to no longer use my app. How do I remove him/her?
@@ -344,6 +360,8 @@ Place the user ID of the user you want to remove as a variable :
 
 <b>Note : Please carefully control which roles are able to conduct `delete` operation as it is sensitive.</b>
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ## 🆕 Create an Entry in a Collection Type
 
 Suppose you have created a collection type named `idCardVerification`. Here is how you can add a new record inside it :
@@ -374,6 +392,8 @@ For instace, `identifier` and `birthPlace` are variables available in `idCardVer
 
 <b>Note : `birthPlace: London, United Kingdom` is just an example to fill a field</b>
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ## 📮 Fetch/Retrieve a single entry in collection type
 
 To fetch an entry in your collection type, this query is probably able help you :
@@ -394,6 +414,8 @@ Pass the ID of the record/entry you want to fetch :
 }
 ```
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ## 📒 Fetch/Retrieve all entries in collection type
 
 This may get you all of the entries in your collection type :
@@ -406,6 +428,8 @@ query FetchIdCardVerifications {
   }
 }
 ```
+
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
 
 ## 🔄 Update an entry in collection type
 
@@ -438,6 +462,8 @@ You want to change `birthPlace` value to California, United States. Pass these i
 
 You are changing `birthPlace` field. The response should display `birthPlace` field with the updated value.
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ## ❌ Delete/Remove an entry in collection type
 
 ```graphql
@@ -462,6 +488,8 @@ Variables :
   }
 }
 ```
+
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
 
 ## 📤 🖼️ Upload a single image
 
@@ -503,6 +531,8 @@ Variables :
 Here is an example :<br/>
 <img src="https://raw.githubusercontent.com/kevinadhiguna/strapi-graphql-documentation/master/assets/gif/singleImageUpload.gif" />
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ## 📤 🖼️ Upload multiple images in a single field
 ```graphql
 mutation MultipleImageUpload(
@@ -543,6 +573,8 @@ Variables :
 
 Here is an example :<br/>
 <img src="https://raw.githubusercontent.com/kevinadhiguna/strapi-graphql-documentation/master/assets/gif/multipleImageUpload.gif" />
+
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
 
 ## 📤 🖼️ Upload a single image in separate fields
 >Hmm... but how do I upload a single image to several fields in a single request?
@@ -636,9 +668,13 @@ Note: In this case, the variables' names are `cardImage`, `facePhoto`, and `pers
 Here is an example :<br/>
 <img src="https://raw.githubusercontent.com/kevinadhiguna/strapi-graphql-documentation/master/assets/gif/uploadSingleImageToSeveralFields.gif" />
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ### 🚀 How does `UploadSingleImageToSeveralFields` mutation work ?
 
 In the `UploadSingleImageToSeveralFields` mutation above, you still need `ref`, `refId`, and field name. However you are sending a request to a collection type and are trying to attach images in a single record inside the collection type. So, you are able to set `ref` and `refId` as variables. The field name ? You should name it statically as you want to upload an image in different fields. Hopefully this approach helps :)
+
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
 
 ## 📂 Get all files
 >All right, I got images and files uploaded to my Strapi app but how do I know what files did I upload ?  
@@ -666,6 +702,8 @@ query FetchFiles {
 ```
 
 Unfortunately, currently Strapi does not provide a query to fetch a single file.
+
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
 
 ## 👨‍💻 Fetch a single role
 
@@ -712,6 +750,8 @@ Variable :
 }
 ```
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ## 👨‍💻 👨‍💼 🧑‍🔧 Fetch all roles
 
 Below is the query to get all roles :
@@ -750,6 +790,8 @@ query FetchRoles {
 }
 ```
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ## 🖊 Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -760,6 +802,8 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ## 🌐 Contact
 Author : Kevin Adhiguna - [@kevinadhiguna](https://linkedin.com/in/kevinadhiguna) - hi.kevinadhiguna@gmail.com
 
@@ -769,8 +813,12 @@ See on Github Gist : [https://gist.github.com/kevinadhiguna/623af7a87a629f672ca5
 
 Project Link: [https://github.com/kevinadhiguna/strapi-graphql-documentation](https://github.com/kevinadhiguna/strapi-graphql-documentation)
 
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
+
 ## 🎉 Acknowledgements
 * [Strapi](https://github.com/strapi/strapi)
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+
+<br /> **[⬆ back to top](##-table-of-contents)** <br /><br />
 
 [![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/strapi-graphql-documentation)](https://github.com/kevinadhiguna)
