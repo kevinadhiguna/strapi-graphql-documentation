@@ -1,8 +1,0 @@
-mutation createIdCardVerification($input: createIdCardVerificationInput) {
-  createIdCardVerification(input: $input) {
-    idCardVerification {
-      id
-      identifier
-    }
-  }
-}
