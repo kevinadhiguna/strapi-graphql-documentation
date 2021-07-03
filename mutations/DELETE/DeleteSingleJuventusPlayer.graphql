@@ -1,0 +1,25 @@
+mutation DeleteSingleJuventusPlayer($input: deleteJuventusInput) {
+  deleteJuventus(input: $input) {
+    juventus {
+      id
+      _id
+      createdAt
+      updatedAt
+      name
+      number
+      age
+      country
+      appearences
+      goals
+      minutesPlayed
+      minutesPlayed
+      position
+      profpic {
+        name
+        url
+        provider
+      }
+      published_at
+    }
+  }
+}
