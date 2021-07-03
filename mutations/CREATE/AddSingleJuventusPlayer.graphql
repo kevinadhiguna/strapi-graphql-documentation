@@ -1,0 +1,19 @@
+mutation AddSingleJuventusPlayer($input: createJuventusInput) {
+  createJuventus(input: $input) {
+    juventus {
+      id
+      _id
+      createdAt
+      updatedAt
+      name
+      number
+      age
+      country
+      appearences
+      goals
+      minutesPlayed
+      position
+      published_at
+    }
+  }
+}
