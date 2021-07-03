@@ -1,0 +1,24 @@
+mutation UpdateSingleJuventusPlayer($input: updateJuventusInput) {
+  updateJuventus(input: $input) {
+    juventus {
+      id
+      _id
+      createdAt
+      updatedAt
+      name
+      number
+      age
+      country
+      appearences
+      goals
+      minutesPlayed
+      position
+      profpic {
+        name
+        url
+        provider
+      }
+      published_at
+    }
+  }
+}
