@@ -1108,4 +1108,5 @@ Project Link: [https://github.com/kevinadhiguna/strapi-graphql-documentation](ht
 
 <br /> **[⬆ back to top](#-table-of-contents)** <br /><br />
 
-[![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/strapi-graphql-documentation)](https://github.com/kevinadhiguna)
+
+![Hello !](https://api.visitorbadge.io/api/VisitorHit?user=kevinadhiguna&repo=strapi-graphql-documentation&label=thanks%20for%20dropping%20in%20!&labelColor=%23000000&countColor=%23FFFFFF)
